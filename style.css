@@ -1,0 +1,42 @@
+/* Colstyling */
+
+.col-xs-12 {
+    background-color: #ffff7b;
+}
+
+.col-xs-12,
+.col-sm-6,
+.col-md-3 {
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Postitlappar */
+
+#postit {
+    background-image: url(post_it.jpg);
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    max-height: 25%;
+    min-height: 400px;
+}
+
+/* Knappar */
+
+input {
+    height 50px;
+    width: auto;
+}
+
+#complete_button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#delete_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
